@@ -1,0 +1,33 @@
+{
+  "name": "gator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "tsx ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KauffmannAko/Gator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KauffmannAko/Gator/issues"
+  },
+  "homepage": "https://github.com/KauffmannAko/Gator#readme",
+  "devDependencies": {
+    "@types/node": "^25.4.0",
+    "drizzle-kit": "^0.31.9",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.1",
+    "fast-xml-parser": "^5.5.5",
+    "postgres": "^3.4.8"
+  }
+}
